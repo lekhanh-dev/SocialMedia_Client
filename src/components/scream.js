@@ -29,15 +29,7 @@ class Scream extends Component {
     dayjs.extend(relativeTime);
     const {
       classes,
-      scream: {
-        screamId,
-        body,
-        userHandle,
-        commentCount,
-        createdAt,
-        likeCount,
-        userImage,
-      },
+      scream: { body, userHandle, createdAt, userImage },
     } = this.props;
 
     return (

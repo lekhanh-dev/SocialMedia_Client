@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import jwtDecode from "jwt-decode";
 
 // MUI stuff
 import { ThemeProvider as MuiThemeProvider } from "@material-ui/core/styles";
@@ -16,56 +17,23 @@ import Signup from "./pages/signup";
 // Components
 import Navbar from "./components/navbar";
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      light: "#33c9dc",
-      main: "#00bcd4",
-      dark: "#008394",
-      contrastText: "#fff",
-    },
-    secondary: {
-      light: "#ff6333",
-      main: "#ff3d00",
-      dark: "#b22a00",
-      contrastText: "#fff",
-    },
-  },
-  // form: {
-  //   textAlign: "center",
-  //   padding: 15,
-  // },
+// Util
+import themeFile from "./util/theme";
+import AuthRoute from "./util/authRoute";
 
-  // TextField: {
-  //   marginBottom: 20,
-  // },
+const theme = createMuiTheme(themeFile);
 
-  // titleForm: {
-  //   marginBottom: 20,
-  // },
-
-  // button: {
-  //   marginTop: 20,
-  //   position: "relative",
-  // },
-
-  // customError: {
-  //   color: "red",
-  // },
-
-  // small: {
-  //   display: "block",
-  //   marginTop: 15,
-  // },
-
-  // link: {
-  //   color: "#00bcd4",
-  // },
-
-  // progress: {
-  //   position: "absolute",
-  // },
-});
+let authenticated = false;
+const token = localStorage.FBIdToken;
+if (token) {
+  const decodedToken = jwtDecode(token);
+  if (decodedToken.exp * 1000 < Date.now()) {
+    authenticated = false;
+  } else {
+    authenticated = true;
+  }
+  console.log(decodedToken);
+}
 
 function App() {
   return (
@@ -75,8 +43,18 @@ function App() {
         <div className="container">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/signup" component={Signup} />
+            <AuthRoute
+              exact
+              path="/login"
+              component={Login}
+              authenticated={authenticated}
+            />
+            <AuthRoute
+              exact
+              path="/signup"
+              component={Signup}
+              authenticated={authenticated}
+            />
           </Switch>
         </div>
       </Router>
