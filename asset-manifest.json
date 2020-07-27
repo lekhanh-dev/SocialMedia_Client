@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lekhanh-dev/SocialMedia_Client/static/css/main.fc225a55.chunk.css",
+    "main.js": "/lekhanh-dev/SocialMedia_Client/static/js/main.8115dfad.chunk.js",
+    "main.js.map": "/lekhanh-dev/SocialMedia_Client/static/js/main.8115dfad.chunk.js.map",
+    "runtime-main.js": "/lekhanh-dev/SocialMedia_Client/static/js/runtime-main.a1e98c21.js",
+    "runtime-main.js.map": "/lekhanh-dev/SocialMedia_Client/static/js/runtime-main.a1e98c21.js.map",
+    "static/js/2.2bda7a3a.chunk.js": "/lekhanh-dev/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js",
+    "static/js/2.2bda7a3a.chunk.js.map": "/lekhanh-dev/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js.map",
+    "index.html": "/lekhanh-dev/SocialMedia_Client/index.html",
+    "precache-manifest.a59a5df9790521be417bce23c2d871a1.js": "/lekhanh-dev/SocialMedia_Client/precache-manifest.a59a5df9790521be417bce23c2d871a1.js",
+    "service-worker.js": "/lekhanh-dev/SocialMedia_Client/service-worker.js",
+    "static/css/main.fc225a55.chunk.css.map": "/lekhanh-dev/SocialMedia_Client/static/css/main.fc225a55.chunk.css.map",
+    "static/js/2.2bda7a3a.chunk.js.LICENSE.txt": "/lekhanh-dev/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1e98c21.js",
+    "static/js/2.2bda7a3a.chunk.js",
+    "static/css/main.fc225a55.chunk.css",
+    "static/js/main.8115dfad.chunk.js"
+  ]
+}
