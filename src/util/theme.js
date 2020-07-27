@@ -55,4 +55,50 @@ export default {
       position: "absolute",
     },
   },
+
+  // CSS for Profile
+  spreadProfile: {
+    paper: {
+      padding: "1rem",
+    },
+    buttons: {
+      marginTop: ".5rem",
+      textAlign: "center",
+      "& .btn": {
+        margin: ".5rem",
+      },
+    },
+    profile: {
+      textAlign: "center",
+      "& .image-wrapper": {
+        textAlign: "center",
+        position: "relative",
+      },
+      "& .profile-image": {
+        width: 200,
+        height: 200,
+        objectFit: "cover",
+        maxWidth: "100%",
+        borderRadius: "50%",
+      },
+      "& .button": {
+        position: "absolute",
+        top: "80%",
+        left: "70%",
+      },
+      "& .profile-details": {
+        textAlign: "center",
+        "& span, svg": {
+          verticalAlign: "middle",
+        },
+        "& a": {
+          color: "#00bcd4",
+        },
+      },
+      "& hr": {
+        border: "none",
+        margin: "0 0 10px 0",
+      },
+    },
+  },
 };
