@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Social-Media/static/css/main.fc225a55.chunk.css",
-    "main.js": "/Social-Media/static/js/main.5b22dcdc.chunk.js",
-    "main.js.map": "/Social-Media/static/js/main.5b22dcdc.chunk.js.map",
-    "runtime-main.js": "/Social-Media/static/js/runtime-main.0bce558b.js",
-    "runtime-main.js.map": "/Social-Media/static/js/runtime-main.0bce558b.js.map",
-    "static/js/2.2bda7a3a.chunk.js": "/Social-Media/static/js/2.2bda7a3a.chunk.js",
-    "static/js/2.2bda7a3a.chunk.js.map": "/Social-Media/static/js/2.2bda7a3a.chunk.js.map",
-    "index.html": "/Social-Media/index.html",
-    "precache-manifest.a9e4149bb4b2c1bd397809b3b5d90e3e.js": "/Social-Media/precache-manifest.a9e4149bb4b2c1bd397809b3b5d90e3e.js",
-    "service-worker.js": "/Social-Media/service-worker.js",
-    "static/css/main.fc225a55.chunk.css.map": "/Social-Media/static/css/main.fc225a55.chunk.css.map",
-    "static/js/2.2bda7a3a.chunk.js.LICENSE.txt": "/Social-Media/static/js/2.2bda7a3a.chunk.js.LICENSE.txt"
+    "main.css": "/SocialMedia_Client/static/css/main.fc225a55.chunk.css",
+    "main.js": "/SocialMedia_Client/static/js/main.03e2dbbd.chunk.js",
+    "main.js.map": "/SocialMedia_Client/static/js/main.03e2dbbd.chunk.js.map",
+    "runtime-main.js": "/SocialMedia_Client/static/js/runtime-main.273948bb.js",
+    "runtime-main.js.map": "/SocialMedia_Client/static/js/runtime-main.273948bb.js.map",
+    "static/js/2.2bda7a3a.chunk.js": "/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js",
+    "static/js/2.2bda7a3a.chunk.js.map": "/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js.map",
+    "index.html": "/SocialMedia_Client/index.html",
+    "precache-manifest.95de49fd2ac5e6d76bc9d8aeda5a9756.js": "/SocialMedia_Client/precache-manifest.95de49fd2ac5e6d76bc9d8aeda5a9756.js",
+    "service-worker.js": "/SocialMedia_Client/service-worker.js",
+    "static/css/main.fc225a55.chunk.css.map": "/SocialMedia_Client/static/css/main.fc225a55.chunk.css.map",
+    "static/js/2.2bda7a3a.chunk.js.LICENSE.txt": "/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bce558b.js",
+    "static/js/runtime-main.273948bb.js",
     "static/js/2.2bda7a3a.chunk.js",
     "static/css/main.fc225a55.chunk.css",
-    "static/js/main.5b22dcdc.chunk.js"
+    "static/js/main.03e2dbbd.chunk.js"
   ]
 }
