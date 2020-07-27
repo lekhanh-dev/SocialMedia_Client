@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lekhanh-dev/SocialMedia_Client/static/css/main.fc225a55.chunk.css",
-    "main.js": "/lekhanh-dev/SocialMedia_Client/static/js/main.8115dfad.chunk.js",
-    "main.js.map": "/lekhanh-dev/SocialMedia_Client/static/js/main.8115dfad.chunk.js.map",
-    "runtime-main.js": "/lekhanh-dev/SocialMedia_Client/static/js/runtime-main.a1e98c21.js",
-    "runtime-main.js.map": "/lekhanh-dev/SocialMedia_Client/static/js/runtime-main.a1e98c21.js.map",
-    "static/js/2.2bda7a3a.chunk.js": "/lekhanh-dev/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js",
-    "static/js/2.2bda7a3a.chunk.js.map": "/lekhanh-dev/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js.map",
-    "index.html": "/lekhanh-dev/SocialMedia_Client/index.html",
-    "precache-manifest.a59a5df9790521be417bce23c2d871a1.js": "/lekhanh-dev/SocialMedia_Client/precache-manifest.a59a5df9790521be417bce23c2d871a1.js",
-    "service-worker.js": "/lekhanh-dev/SocialMedia_Client/service-worker.js",
-    "static/css/main.fc225a55.chunk.css.map": "/lekhanh-dev/SocialMedia_Client/static/css/main.fc225a55.chunk.css.map",
-    "static/js/2.2bda7a3a.chunk.js.LICENSE.txt": "/lekhanh-dev/SocialMedia_Client/static/js/2.2bda7a3a.chunk.js.LICENSE.txt"
+    "main.css": "/Social-Media/static/css/main.fc225a55.chunk.css",
+    "main.js": "/Social-Media/static/js/main.5b22dcdc.chunk.js",
+    "main.js.map": "/Social-Media/static/js/main.5b22dcdc.chunk.js.map",
+    "runtime-main.js": "/Social-Media/static/js/runtime-main.0bce558b.js",
+    "runtime-main.js.map": "/Social-Media/static/js/runtime-main.0bce558b.js.map",
+    "static/js/2.2bda7a3a.chunk.js": "/Social-Media/static/js/2.2bda7a3a.chunk.js",
+    "static/js/2.2bda7a3a.chunk.js.map": "/Social-Media/static/js/2.2bda7a3a.chunk.js.map",
+    "index.html": "/Social-Media/index.html",
+    "precache-manifest.a9e4149bb4b2c1bd397809b3b5d90e3e.js": "/Social-Media/precache-manifest.a9e4149bb4b2c1bd397809b3b5d90e3e.js",
+    "service-worker.js": "/Social-Media/service-worker.js",
+    "static/css/main.fc225a55.chunk.css.map": "/Social-Media/static/css/main.fc225a55.chunk.css.map",
+    "static/js/2.2bda7a3a.chunk.js.LICENSE.txt": "/Social-Media/static/js/2.2bda7a3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1e98c21.js",
+    "static/js/runtime-main.0bce558b.js",
     "static/js/2.2bda7a3a.chunk.js",
     "static/css/main.fc225a55.chunk.css",
-    "static/js/main.8115dfad.chunk.js"
+    "static/js/main.5b22dcdc.chunk.js"
   ]
 }
